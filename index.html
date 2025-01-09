@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Faça seu login</h1>
+    <form id="form">
+        <label for="Nome">Nome</label>
+        <input type="text" id="nome" name="nome" required placeholder="Digite sue nome"><br><br>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required placeholder="Digite sua senha"><br><br>
+        <div id="feedback" class="error"></div>
+
+        <button type="submit">Entrar</button>
+    </form>
+    <br><br>
+
+    <div id="container">
+        <h1>Carrinho de compras</h1>
+        <label for="produto">Produto</label>
+        <input type="text" name="produto" id="produto" required placeholder="Nome do produto">
+        <button id="add-to-cart" onclick="adicionar()">Adicionar</button>
+        <p id="cart-itens">Itens no carrinho: 0,00</p>
+        <p id="cart-total">Total: 0,00</p>
+    </div>
+
+    <div id="container2">
+        <h2>Itens Adicionados</h2>
+        <ul id="info">
+
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
