@@ -27,8 +27,11 @@ function adicionar(){
     let p = document.createElement('p')
 
     li.textContent = produto
+    p.textContent = "Seu produto foi adicionado ao carrinho"
 
     document.getElementById('info').appendChild(li)
+    document.body.appendChild(p)
+    
 }
 
 let cart = {
