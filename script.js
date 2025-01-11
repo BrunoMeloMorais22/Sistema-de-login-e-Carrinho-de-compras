@@ -29,6 +29,8 @@ function adicionar(){
     li.textContent = produto
     p.textContent = "Seu produto foi adicionado ao carrinho"
 
+    li.onclick = () => li.remove()
+
     document.getElementById('info').appendChild(li)
     document.body.appendChild(p)
     
