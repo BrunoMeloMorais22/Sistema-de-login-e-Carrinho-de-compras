@@ -33,6 +33,10 @@ function adicionar(){
 
     document.getElementById('info').appendChild(li)
     document.body.appendChild(p)
+
+    setTimeout(() => {
+        p.remove()
+    }, 2000);
     
 }
 
