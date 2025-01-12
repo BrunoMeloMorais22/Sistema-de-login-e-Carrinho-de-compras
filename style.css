@@ -24,3 +24,10 @@ body{
 input{
     font-family: "Fira Sans", serif;
 }
+
+.formulario{
+    display: inline-block;
+    padding: 20px;
+    background: rgb(197, 197, 197);
+    margin-left: 20px;
+}
